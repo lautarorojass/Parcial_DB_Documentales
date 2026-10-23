@@ -3,7 +3,7 @@
         "id_reclamo": 1,
         "tipo_problema": "perdida_agua",
         "datos_especificos": {
-            "tipo_caneria": "agua potable",
+            "tipo_cañeria": "agua potable",
             "diametro": 100,
             "gravedad": "alta"
         }
