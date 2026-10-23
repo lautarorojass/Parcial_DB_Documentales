@@ -1,0 +1,46 @@
+[
+    {
+        "id_intervencion": 1,
+        "observaciones": [
+            {
+                "id_empleado": 1,
+                "fecha": "2026-10-20T09:30:00",
+                "texto": "Se detectó una pérdida en la conexión de la cañería.",
+                "fotografias": [
+                    "fotos/reclamo_1/antes.jpg"
+                ],
+                "datos_adicionales": {
+                    "presion_agua": "baja",
+                    "requiere_repuesto": true
+                }
+            },
+            {
+                "id_empleado": 2,
+                "fecha": "2026-10-20T10:15:00",
+                "texto": "Se reemplazó la conexión dañada y se verificó la reparación.",
+                "fotografias": [
+                    "fotos/reclamo_1/despues.jpg"
+                ],
+                "datos_adicionales": {
+                    "repuesto_utilizado": "conector de PVC",
+                    "reparacion_completada": true
+                }
+            }
+        ]
+    },
+    {
+        "id_intervencion": 2,
+        "observaciones": [
+            {
+                "id_empleado": 3,
+                "fecha": "2026-10-21T11:00:00",
+                "texto": "Se revisó la luminaria y se encontró una falla eléctrica.",
+                "fotografias": [],
+                "datos_adicionales": {
+                    "tipo_falla": "electrica",
+                    "requiere_reemplazo": true
+                }
+            }
+        ]
+    }
+]

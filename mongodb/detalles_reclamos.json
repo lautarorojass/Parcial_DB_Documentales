@@ -1,0 +1,29 @@
+[
+    {
+        "id_reclamo": 1,
+        "tipo_problema": "perdida_agua",
+        "datos_especificos": {
+            "tipo_caneria": "agua potable",
+            "diametro": 100,
+            "gravedad": "alta"
+        }
+    },
+    {
+        "id_reclamo": 2,
+        "tipo_problema": "luminaria",
+        "datos_especificos": {
+            "numero_poste": 245,
+            "tipo_luminaria": "LED",
+            "altura_poste": 8
+        }
+    },
+    {
+        "id_reclamo": 3,
+        "tipo_problema": "bache",
+        "datos_especificos": {
+            "profundidad": 15,
+            "ancho": 60,
+            "afecta_transito": true
+        }
+    }
+]
