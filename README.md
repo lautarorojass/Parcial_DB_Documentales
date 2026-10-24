@@ -47,7 +47,7 @@ Se utilizan dos colecciones:
 
 ## Relaciones entre la relacional y la documental
 
-reclamos.id_reclamo < detalles_reclamos.id_reclamo: tiene una relacion 1:1 (uno a uno), ya que cada reclamo solo puede tener solo un archivo de detalles del mismo.
+reclamos.id_reclamo <--> detalles_reclamos.id_reclamo: tiene una relacion 1:1 (uno a uno), ya que cada reclamo solo puede tener solo un archivo de detalles del mismo.
 
 intervenciones.id_intervencion <--> observaciones_intervenciones.id_intervencion: tambien tienen una relacion 1:1 (uno a uno), ya que al igual que en la relacion anterior, una intervencion solo debe estar relacionada con un archivo de observaciones.
 
